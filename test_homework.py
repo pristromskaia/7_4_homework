@@ -107,8 +107,8 @@ def test_dicts():
     d = dict(zip(first, second))
 
     # Проверяем результат
-    #assert isinstance(d, dict)
-    #assert len(d) == 5
+    assert isinstance(d, dict)
+    assert len(d) == 5
 
     # Выводим на экран результат
     print(d)
